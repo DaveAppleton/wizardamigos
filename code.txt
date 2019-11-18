@@ -1,0 +1,32 @@
+
+//start ERC20 OMIT
+mapping (address=>uint256) private balances
+
+//end ERC20 OMIT
+
+//start ALTERC20 OMIT
+    struct Balance {
+        uint256 amount;                 // amount through update or transfer
+        uint256 lastUpdated;            // DATE last updated
+        uint256 nextAllocationIndex;    // which allocationsOverTime record contains next update
+        uint256 allocationShare;        // the share of allocationPool that this holder gets (means they hold HGT)
+	}
+
+mapping (address=>Balance) private balances
+//end ALTERC20 OMIT
+
+//start ERC721 OMIT
+
+    struct Balance {
+        uint256 amount;                 // amount through update or transfer
+        uint256 lastUpdated;            // DATE last updated
+        uint256 nextAllocationIndex;    // which allocationsOverTime record contains next update
+        uint256 allocationShare;        // the share of allocationPool that this holder gets (means they hold HGT)
+	}
+
+    []Balance balanceArray
+    mapping (address=>[]uint) tokensOwned
+    []address                 owners
+
+
+//end ERC721 OMIT

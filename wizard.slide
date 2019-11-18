@@ -95,6 +95,17 @@ The spec defines
 - represent fungible assets
 - financial modeling
 
+* ERC20 code basic
+
+Simple
+
+.code code.txt /start ERC20 OMIT/,/end ERC20 OMIT/
+
+Complex
+
+.code code.txt /start ALTERC20 OMIT/,/end ALTERC20 OMIT/
+
+
 * ERC721 use cases
 
 - kitties
@@ -103,6 +114,11 @@ The spec defines
 - anything real world
 - loans
 - artwork
+
+* ERC721 code basic
+
+.code code.txt /start ERC721 OMIT/,/end ERC721 OMIT/
+
 
 * Ethereum Malaysia (currently only ETHKL)
 
