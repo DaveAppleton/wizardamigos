@@ -1,0 +1,110 @@
+Tokin' the tokens
+These tokens are really smokin it...
+20 Jun 2019
+Tags: Ethereum, Solidity, Smart Contracts, Tokens, ERC20, ERC721
+
+Dave Appleton
+Lead blockchain developer, HelloGold
+https://hellogold.com
+Twitter  @AppletonDave
+
+* Intro
+.background images/GOOGLE-02.png
+.image images/220px-TheJoker.jpg 350 _
+
+* What we will look at
+.background images/GOOGLE-02.png
+
+- What tokens ARE
+- What tokens ARE NOT
+- ERC20 or Fungible Tokens
+- ERC721 or non-fungible tokens
+- Why you should follow standards
+- What is NOT in the standards
+
+* Token - the derivation
+.background images/GOOGLE-02.png
+.image images/tokenpix.png 350 _
+- "NO CASH VALUE" 😂 😂 😂
+
+* What is a token?
+.background images/GOOGLE-02.png
+
+Something that represents something else
+
+- a turn at a game
+- money
+- mugs of coffee
+- votes at a meeting
+- seats for a concert
+
+* Fungibility
+.background images/GOOGLE-02.png
+.image images/fungible.png _ 700
+
+- there is NO difference between each item
+- you can add / subtract items
+
+Are coins, stamps, bank notes fungible?
+
+- Yes and/or NO
+
+.image images/50sen.png 150 _
+
+
+
+* The ERC20 Token
+
+- Created by Fabian Vogelsteller, Vitalik Buterin
+- A Fungible Token
+
+Defines methods to
+
+- transfer tokens (direct and delegated)
+- get the individual balance of a token
+- get the total supply of a token
+- monitor the transfer of tokens (events)
+- get the name, symbol, number of decimals
+
+* The ERC721 Token
+
+- represents things where each token is different 
+- one owner can have many different tokens 
+- each token has the same SET of attributes but of different values 
+- each token has an ID 
+
+The spec defines 
+
+-  how you can identify the token from the ID 
+-  how you can find which tokens an owner holds
+-  (partially) how to mint new tokens
+-  how to transfer (directly and delegated) 
+- how to monitor the transfer of the tokens
+
+* Token standards specify the commonality of features. You can add more.
+
+- HelloGold's GOLDX token includes storage fees
+- HelloGold's GOLDX has a novel distribution mechanism
+- Some tokens have transfer fees
+- Tokens can be frozen
+- Tokens can interact (dragons can eat kitties!)
+
+* ERC20 use cases
+
+- utility tokens for use in an ecosystem
+- represent fungible assets
+- financial modeling
+
+* ERC721 use cases
+
+- kitties
+- game items
+- real estate
+- anything real world
+- loans
+- artwork
+
+* Ethereum Malaysia (currently only ETHKL)
+
+- sponsored by Etherscan and HelloGold
+- Hold 101 sessions and advanced coding sessions
